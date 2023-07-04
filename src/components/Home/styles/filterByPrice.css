@@ -1,0 +1,21 @@
+.filter__price{
+    width: 130px;
+}
+
+.filterprice__form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.filterprice__content-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.filter__price-btn{
+    background-color: #f85555;
+    color: white;
+    padding: 0.2em;
+}

@@ -1,0 +1,17 @@
+.similiar__products{
+    margin-bottom: 2em;
+}
+
+.similiar__products-h2{
+    margin-left: 2.6em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.similiar__products-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    padding: 2rem;
+}

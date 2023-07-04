@@ -1,0 +1,39 @@
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+.filter__category {
+    width: 120px;
+    user-select: none;
+}
+
+.filter__category-ul{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.filter__category-li{
+    padding: 0.1em;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.2s;
+}
+
+.filter__category-li:hover{
+    background-color: rgba(255, 0, 0, 0.085);
+}

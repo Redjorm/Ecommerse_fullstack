@@ -1,0 +1,57 @@
+.form__user{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #F7F7F7;
+}
+
+.form__user-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+    background-color: #fff;
+    padding: 1rem;
+    width: 290px;
+    border-radius: .5rem;
+}
+
+.form__user-container h2{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.form__user form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+    width: 300px;
+    border-radius: .5rem;  
+}
+
+.input__container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.input__container input{
+    height: 25px;
+}
+
+.form__user button{
+    background-color: #F85555 ;
+    padding: .5rem;
+    width: 90%;
+    height: 35px;
+    color: #fff;
+}

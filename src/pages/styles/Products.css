@@ -1,0 +1,28 @@
+.home{
+    padding-top: 5em;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    padding: 5rem 2rem;
+}
+
+.sliderAndProducts {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+    gap: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .sliderAndProducts {
+        flex-direction: row;
+    }
+}
