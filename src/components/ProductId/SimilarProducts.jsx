@@ -5,7 +5,7 @@ import "./styles/SimiliarProducts.css";
 const SimilarProducts = ({ product }) => {
   const URL_BASE = import.meta.env.VITE_REACT_APP_URL;
 
-  const url = `${URL_BASE}/products?categoryId=${product?.categoryId}`;
+  const url = `${URL_BASE}/products?category=${product?.categoryId}`;
 
   const [filterProducts, getProductByCategory] = useFetch(url);
   useEffect(() => {
