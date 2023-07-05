@@ -16,15 +16,15 @@ const FilterCategory = () => {
   }, []);
 
   const handleClickCategories = (id) => {
-    const url = `${URL_BASE}/products?categoryId=${id}`;
-
+    const url = `${URL_BASE}/products?category=${id}`;
+    console.log(url);
     dispatch(getAllProductsThunk(url));
   };
 
   const handleClickAllProducts = () => {
     dispatch(getAllProductsThunk());
   };
-  /* console.log(categories); */
+  
 
   return (
     <details className="filter__category">
