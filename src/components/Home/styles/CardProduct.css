@@ -88,21 +88,25 @@
   gap: 0.5em;
 }
 
-.product__btn{
+.product__btn {
   width: 40px;
   height: 40px;
   position: absolute;
   bottom: 0.8em;
-  right: 1.5em;
+  right: 1em;
   font-size: 1.4em;
   border-radius: 50%;
   border: 0px;
-  background-color: #f85555;
+  background-color: #0b0b0b;
   color: white;
-  transition: transform 200ms ease;
+  transition: transform 200ms ease, background-color 200ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.product__btn:hover{
+.product__btn:hover {
+  background-color: #000000;
   transform: scale(1.10);
   filter: brightness(1.2);
 }

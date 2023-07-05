@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div className="topnav" id="myTopnav">
-      <Link to="/">E-commerce</Link>
+      <Link to="/">E-Comics <i class='bx bx-game'></i></Link>
       <Link to="/purchases">Purchases</Link>
       <Link to="/Cart"><i className='bx bxs-cart' ></i></Link>
       <Link to="/login"><i className='bx bxs-user-circle'></i></Link>

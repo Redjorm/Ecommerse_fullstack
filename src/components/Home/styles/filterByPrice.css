@@ -1,21 +1,28 @@
-.filter__price{
+.filter__price {
     width: 130px;
 }
 
-.filterprice__form{
+.filterprice__form {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
 
-.filterprice__content-input{
+.filterprice__content-input {
     display: flex;
     flex-direction: column;
     gap: 0.2em;
 }
 
-.filter__price-btn{
-    background-color: #f85555;
+.filter__price-btn {
+    background-color: #0b0b0b;
     color: white;
     padding: 0.2em;
+    transition: transform 200ms ease, background-color 200ms ease;
+}
+
+.filter__price-btn:hover {
+    background-color: #000000;
+    transform: scale(1.10);
+    filter: brightness(1.2);
 }
